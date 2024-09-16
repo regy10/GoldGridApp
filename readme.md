@@ -41,27 +41,27 @@ Nebula is a comprehensive platform designed to manage and visualize student data
 ## Cost optimaziong Approach.
 
  1. ## Infrastructure Costs
-    - # AWS DynamoDB:
+    - ## AWS DynamoDB:
        - Read and Write Capacity: Provisioned capacity can be more cost-effective if you have a predictable   load. Costs are based on the number of read and write operations.
-    - # Storage:
+    - ## Storage:
       - Costs are based on the amount of data stored.
-    - # AWS SES (Simple Email Service):
+    - ## AWS SNS (Simple Notification Service):
        - ## Email Sending: 
            -Costs are based on the number of emails sent. The first 62,000 emails per month are free if sent from an application hosted in Amazon EC2 or AWS Lambda.
 
     
-2. ## Development Costs
-  - # Development Time: 
+2. # Development Costs
+  -  ## Development Time: 
       - Assuming a small team working for a few weeks, development costs will include salaries or contractor fees.
-3. ## Budget Estimate (for a small to medium-scale project):
-   - # DynamoDB:
-      - $100 - $300 per month
-   - # AWS SES: 
-      - $10 - $50 per month (after free tier)
+3. # Budget Estimate (for a small to medium-scale project):
+   - ## DynamoDB:
+      -  $100 - $300 per month
+   - ## AWS SNS: 
+      -   $10 - $50 per month (after free tier)
 
    - ## Development:
       - $500 - $2,000 (depending on team size and duration)
-   - # Total Estimated Cost (Monthly):
+   - ## Total Estimated Cost (Monthly):
      -  $100- $500 
-   - # Total Estimated Development Cost:
+   - ## Total Estimated Development Cost:
       -  $500 - $2000
