@@ -66,3 +66,31 @@ Nebula is a comprehensive platform designed to manage and visualize student data
      -  $100- $500 
    - ## Total Estimated Development Cost:
       -  $500 - $2000
+4. # Architecture diagram of the Project
+     
+     +---------------------+    +----------------+     +------------------+
+|     Frontend        |--->|    Backend   |---->|      AWS Lambda      |
+|    (HTML/CSS/JS)  |    |     (Python/Flask,PHP) |     |  (Serverless APIs) |
+     +---------------------+    +----------------+     +------------------+
+            |                         |                     |
+            v                         v                     v
+     +----------------+      +----------------+     +------------------+
+     |  AWS DynamoDB   |      |   AWS API GW   |     |     AWS SNS       |
+     | (Student Data)  |      | (API Endpoints)|     | (Notifications)   |
+     +----------------+      +----------------+     +------------------+
+5. # Use case
+     ## Students Management system
+       - Purpose: Track students' performance, attendance, and  progression.
+      -  Users: Admins, instructors, students.
+     ## Functionality:
+      - Register/login students.
+      - Record and display academic performance.
+      - Real-time updates on students' status.
+      - Automated notifications (via AWS SNS) for attendance and performance.
+      - Performance Analytics Dashboard:
+      - Visualize cohort performance.
+      - Generate reports on academic metrics (assignments, attendance).
+      - Advanced search for student data.
+      - Trigger Lambda functions to send automated notifications upon new student registration.
+      - Automated Notifications for Cohort Activity:
+      - Access real-time student statistics via API Gateway and Lambda.
