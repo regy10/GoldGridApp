@@ -67,7 +67,7 @@ Nebula is a comprehensive platform designed to manage and visualize student data
    - ## Total Estimated Development Cost:
       -  $500 - $2000
 4. # Architecture diagram of the Project
-     - ![Nebula Architecture](assets/image.png)
+     - ![Nebula Architecture](assets/image.webp)
 
    
 5. # Use case
