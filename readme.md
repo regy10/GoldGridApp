@@ -10,6 +10,7 @@ Nebula is a comprehensive platform designed to manage and visualize student data
 - API endpoints for data retrieval and management
 
 ## Technology Stack
+- **Frontend**:Html,Css,JS,JSX,Php.
 - **Backend**: Python, Flask
 - **Database**: AWS DynamoDB
 - **Notifications**: AWS SNS
