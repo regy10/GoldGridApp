@@ -36,8 +36,7 @@ Nebula is a comprehensive platform designed to manage and visualize student data
 - [ ] Add user analytics dashboard
 - [ ] Implement advanced search features
 - [ ] SNS send notifications after user has been created by trigger lamda function
-## Current Issues
-- Issue #1: User data count not display on dashboard
+
 
 ## Cost optimaziong Approach.
 
